@@ -12,13 +12,13 @@ const CONFIG = {
 
   
 	// General
-	name: 'John',
+	name: 'Husensei',
 	openInNewTab: true,
 	twelveHourFormat: false,
   title: 'Bento',
 
 	// Theme
-	theme: 'bento',
+	theme: 'catppuccin',
 	imageBackground: false,
   imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
@@ -32,14 +32,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '71507abce074fa871f185968081620af', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-7.802640',
+	defaultLongitude: '110.365051',
 
 	// Autochange
 	autoChangeTheme: true,
